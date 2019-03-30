@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { onGenerateAuralUpdate, restartGame } from '../actions/index';
 
 import './top-nav.css';
 
@@ -40,3 +42,5 @@ export default function TopNav(props) {
     </nav>
   );
 }
+
+export default connect()(TopNav);

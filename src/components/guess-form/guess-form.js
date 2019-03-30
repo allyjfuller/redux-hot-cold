@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { makeGuess } from '../actions/index';
 
 import './guess-form.css';
 
@@ -41,3 +43,5 @@ export default class GuessForm extends React.Component {
     );
   }
 }
+
+export default connect()(GuessForm);
