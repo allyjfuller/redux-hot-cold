@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Header from './header';
-import GuessSection from './guess-section';
-import StatusSection from './status-section';
-import InfoSection from './info-section';
+import Header from '../header/header';
+import GuessSection from '../guess-section/guess-section';
+import StatusSection from '../status-section/status-section';
+import InfoSection from '../info-section/info-section';
 
 export default class Game extends React.Component {
   constructor(props) {

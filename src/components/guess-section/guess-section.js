@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Feedback from './feedback';
-import GuessForm from './guess-form';
+import Feedback from '../feedback/feedback';
+import GuessForm from '../guess-form/guess-form';
 
 export default function GuessSection(props) {
   const { feedback, guessCount } = props;
